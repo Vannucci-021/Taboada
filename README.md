@@ -1,2 +1,2 @@
-# Taboada
-Criei uma tabuada da Escola de Tecnologia DNC
+# Tabuada
+Desenvolvi uma tabuada com o protótipo da Escola de Tecnologia DNC! 🖩🔢

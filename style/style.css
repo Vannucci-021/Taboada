@@ -1,0 +1,62 @@
+/* CONFIG PADRÃO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/* CORES E FONTE */
+:root {
+    --preto-dnc: rgb(48, 48, 48);
+    --branco-dnc: rgb(239, 235, 228);
+    --azul-dnc: rgb(12, 112, 242);
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--preto-dnc);
+    color: var(--branco-dnc);
+    text-align: center;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    margin: 40px 0 20px 20px;
+}
+/* SEÇÃO FORM */
+section {
+    background-color: var(--branco-dnc);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+}
+
+.input-container {
+    padding: 15px;
+}
+
+/* Config Input */
+.form {
+    margin: 8px;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    width: 230px;
+    padding-left: 10px;
+}
+
+/* Config Botão */
+#btn {
+    background-color: var(--azul-dnc);
+    color: var(--branco-dnc);
+    width: 160px;
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
